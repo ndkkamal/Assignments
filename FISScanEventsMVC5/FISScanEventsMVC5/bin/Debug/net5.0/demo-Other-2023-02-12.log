@@ -1,0 +1,15 @@
+2023-02-12 06:11:57.8649||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:12:06.2717||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:21:47.9189||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:21:56.1109||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:37:10.4853||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:37:13.0538||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:39:00.2766||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:39:03.1599||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:40:32.9310||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:40:35.0357||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:40:59.1151||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 6:40:58 AM |url: https://localhost/|action: Index
+2023-02-12 06:43:18.5609||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:43:21.0640||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:43:41.7523||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 6:43:41 AM |url: https://localhost/|action: Index
+2023-02-12 06:44:05.3400||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 6:44:05 AM |url: https://localhost/|action: Index

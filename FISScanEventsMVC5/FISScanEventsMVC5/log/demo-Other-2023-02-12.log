@@ -1,0 +1,114 @@
+2023-02-12 07:00:15.1009||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 07:00:16.5327||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 07:00:17.9125||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 7:00:17 AM |url: https://localhost/|action: Index
+2023-02-12 07:00:17.9196||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 7:00:17 AM |url: https://localhost/|action: Index
+2023-02-12 07:05:02.2301||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 07:05:03.4268||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 07:08:10.1523||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 07:08:11.4506||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 07:08:17.5345||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 7:08:17 AM |url: https://localhost/|action: Index
+2023-02-12 07:08:17.5345||ERROR|FISScanEventsMVC5.Controllers.HomeController|Type is required  -   2/12/2023 7:08:17 AM |url: https://localhost/|action: Index
+2023-02-12 07:08:19.6698||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 7:08:19 AM |url: https://localhost/|action: Index
+2023-02-12 07:37:48.2581||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 07:37:49.8411||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 07:37:50.0974||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 7:37:50 AM |url: https://localhost/|action: Index
+2023-02-12 07:37:50.0974||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 7:37:50 AM |url: https://localhost/|action: Index
+2023-02-12 07:37:50.1692||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'FISScanEventsMVC5.Models.ScanEvents', but this ViewDataDictionary instance requires a model item of type 'FISScanEventsMVC5.Models.ScanEvent'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method41(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/|action: Index
+2023-02-12 11:25:15.7483||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 11:25:17.9831||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 11:25:18.2962||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 11:25:18 AM |url: https://localhost/|action: Index
+2023-02-12 11:25:18.2962||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 11:25:18 AM |url: https://localhost/|action: Index
+2023-02-12 14:18:55.9558||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 14:18:57.4977||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 14:18:57.7561||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:18:57 PM |url: https://localhost/|action: Index
+2023-02-12 14:18:57.7561||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:18:57 PM |url: https://localhost/|action: Index
+2023-02-12 14:20:30.7186||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 14:20:32.0148||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 14:20:32.2235||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:20:32 PM |url: https://localhost/|action: Index
+2023-02-12 14:20:32.2235||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:20:32 PM |url: https://localhost/|action: Index
+2023-02-12 14:21:02.7328||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 14:21:02.7489||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:21:02 PM |url: https://localhost/|action: Index
+2023-02-12 14:21:02.7489||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:21:02 PM |url: https://localhost/|action: Index
+2023-02-12 14:26:00.1404||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 14:26:01.6382||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 14:26:01.9740||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:26:01 PM |url: https://localhost/|action: Index
+2023-02-12 14:26:01.9740||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 2:26:01 PM |url: https://localhost/|action: Index
+2023-02-12 20:48:25.5134||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 20:48:26.8630||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 20:48:27.1243||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:48:27 PM |url: https://localhost/|action: Index
+2023-02-12 20:48:27.1243||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:48:27 PM |url: https://localhost/|action: Index
+2023-02-12 20:49:46.2734||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 20:49:47.4051||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 20:49:47.6049||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:49:47 PM |url: https://localhost/|action: Index
+2023-02-12 20:49:47.6049||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:49:47 PM |url: https://localhost/|action: Index
+2023-02-12 20:50:09.8015||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 20:50:10.9395||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 20:50:34.7518||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:50:34 PM |url: https://localhost/|action: Index
+2023-02-12 20:50:41.2762||ERROR|FISScanEventsMVC5.Controllers.HomeController|'Status Code' must not be empty.  -   2/12/2023 8:50:41 PM |url: https://localhost/|action: Index
+2023-02-12 21:46:13.7560||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 21:46:14.8731||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 21:46:19.3805||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 9:46:19 PM |url: https://localhost/|action: Index
+2023-02-12 21:46:20.8207||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 9:46:20 PM |url: https://localhost/|action: Index
+2023-02-12 22:09:36.8412||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 22:09:37.9665||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:12:43.7905||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 22:12:44.9362||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:14:20.3504||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 22:14:21.4999||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:14:29.6599||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:14:29 PM |url: https://localhost/|action: Index
+2023-02-12 22:14:30.5452||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:14:30 PM |url: https://localhost/|action: Index
+2023-02-12 22:15:51.3177||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 22:15:52.7652||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:15:59.8869||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:15:59 PM |url: https://localhost/|action: Index
+2023-02-12 22:15:59.8960||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:15:59 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:41.6717||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:41.6931||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:41 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:41.6931||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:41 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.0786||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:43.1015||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.1095||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.3411||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:43.3573||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.3573||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.5528||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:43.5771||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.5771||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.7373||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:43.7610||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:43.7698||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:43 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:58.3263||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 22:16:59.4525||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:16:59.7513||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:16:59 PM |url: https://localhost/|action: Index
+2023-02-12 22:16:59.7513||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:16:59 PM |url: https://localhost/|action: Index
+2023-02-12 22:17:03.3098||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 22:17:03.3568||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 10:17:03 PM |url: https://localhost/|action: Index
+2023-02-12 22:17:03.3568||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 10:17:03 PM |url: https://localhost/|action: Index

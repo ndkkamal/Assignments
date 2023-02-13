@@ -1,0 +1,20 @@
+2023-02-11 10:36:44.9043||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 10:36:48.4973||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 10:36:58.8896||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 10:37:08.0518||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 10:37:10.6693||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 10:37:13.4434||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 13:29:01.6851||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 13:29:13.5944||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 19:05:54.2317||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 19:06:03.1925||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 19:27:06.3565||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 19:27:18.7817||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 19:29:19.7117||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 19:30:30.2116||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 19:41:45.5274||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 19:41:52.4636||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 19:51:37.4387||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 19:51:45.0299||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-11 20:07:18.8600||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-11 20:07:26.0146||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index

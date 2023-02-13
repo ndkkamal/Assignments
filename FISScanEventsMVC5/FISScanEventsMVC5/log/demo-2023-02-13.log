@@ -1,0 +1,18 @@
+2023-02-13 10:14:40.1433||DEBUG|FISScanEventsMVC5.Program|init main function 
+2023-02-13 10:14:42.1997||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-02-13 10:14:42.3158||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-02-13 10:14:42.3567||DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-03621c48-15c5-441b-b0ae-82559f5b270a.xml'. 
+2023-02-13 10:14:42.3987||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {03621c48-15c5-441b-b0ae-82559f5b270a}. 
+2023-02-13 10:14:42.4313||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {03621c48-15c5-441b-b0ae-82559f5b270a} with expiration date 2023-05-11 20:55:55Z as default key. 
+2023-02-13 10:14:42.5754||DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-13 10:14:42.5754||DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-02-13 10:14:42.5754||DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-13 10:14:42.5933||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-02-13 10:14:42.5933||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-02-13 10:14:42.6083||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {03621c48-15c5-441b-b0ae-82559f5b270a} as the default key. 
+2023-02-13 10:14:42.6083||DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {03621c48-15c5-441b-b0ae-82559f5b270a} was loaded during application startup. 
+2023-02-13 10:14:43.2347||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly FISScanEventsMVC5 
+2023-02-13 10:14:43.2347||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-02-13 10:14:43.2347||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-02-13 10:14:43.2347||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-02-13 10:14:43.2347||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 

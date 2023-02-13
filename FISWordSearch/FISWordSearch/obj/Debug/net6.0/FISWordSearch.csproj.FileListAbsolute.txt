@@ -1,0 +1,15 @@
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\bin\Debug\net6.0\FISWordSearch.exe
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\bin\Debug\net6.0\FISWordSearch.deps.json
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\bin\Debug\net6.0\FISWordSearch.runtimeconfig.json
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\bin\Debug\net6.0\FISWordSearch.dll
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\bin\Debug\net6.0\FISWordSearch.pdb
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.csproj.AssemblyReference.cache
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.AssemblyInfoInputs.cache
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.AssemblyInfo.cs
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.csproj.CoreCompileInputs.cache
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.dll
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\refint\FISWordSearch.dll
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.pdb
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\FISWordSearch.genruntimeconfig.cache
+C:\MyFolder\Interview\CodingTest\FISWordSearch\FISWordSearch\obj\Debug\net6.0\ref\FISWordSearch.dll

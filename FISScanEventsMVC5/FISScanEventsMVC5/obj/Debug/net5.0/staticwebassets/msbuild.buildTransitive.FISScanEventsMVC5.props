@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FISScanEventsMVC5.props" />
+</Project>

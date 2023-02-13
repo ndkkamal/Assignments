@@ -1,0 +1,4 @@
+2023-02-12 06:58:46.2561||DEBUG|FISScanEventsMVC5.Program|init main function |url: |action: 
+2023-02-12 06:58:47.6378||INFO|FISScanEventsMVC5.Controllers.HomeController|HomeController.Index method called!!! |url: https://localhost/|action: Index
+2023-02-12 06:58:49.6452||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83269 Date and Time : 2/12/2023 6:58:49 AM |url: https://localhost/|action: Index
+2023-02-12 06:58:49.6452||INFO|FISScanEventsMVC5.Controllers.HomeController|Inserted Event ID : 83268 Date and Time : 2/12/2023 6:58:49 AM |url: https://localhost/|action: Index

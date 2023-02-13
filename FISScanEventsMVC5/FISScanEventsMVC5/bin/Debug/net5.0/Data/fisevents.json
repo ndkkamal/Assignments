@@ -1,0 +1,36 @@
+{
+  "ScanEvents": [
+    {
+      "EventId": 83269,
+      "ParcelId": 5002,
+      "Type": "PICKUP",
+      "CreatedDateTimeUtc": "2021-05-11T21:11:34.1506147Z",
+      "StatusCode": "",
+      "Device": {
+        "DeviceTransactionId": 83269,
+        "DeviceId": 103
+      },
+      "User": {
+        "UserId": "NC1001",
+        "CarrierId": "NC",
+        "RunId": "100"
+      }
+    },
+    {
+      "EventId": 83268,
+      "ParcelId": 5001,
+      "Type": "PICKUP",
+      "CreatedDateTimeUtc": "2021-03-11T21:11:34.1506147Z",
+      "StatusCode": "",
+      "Device": {
+        "DeviceTransactionId": 83256,
+        "DeviceId": 102
+      },
+      "User": {
+        "UserId": "NC1021",
+        "CarrierId": "NC",
+        "RunId": "099"
+      }
+    }
+  ]
+}
